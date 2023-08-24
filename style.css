@@ -1,0 +1,64 @@
+
+         /* Basic styling for the form container */
+  .form-container {
+    width: 300px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    background-color: #f9f9f9;
+  }
+
+  /* Styling for the input field */
+  .form-input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+  }
+
+  /* Styling for the button */
+  .form-button {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 3px;
+    padding: 10px 20px;
+    cursor: pointer;
+  }
+
+  /* Hover effect for the button */
+  .form-button:hover {
+    background-color: #0056b3;
+  }
+
+  /* Styling for the marquee text */
+  .marquee {
+    overflow: hidden;
+    white-space: nowrap;
+  }
+  body {
+    margin: 0;
+    padding: 0;
+    background: url('uba.jpg') no-repeat center center/cover; /* Replace with your image URL */
+    background-size: cover;
+    background-position: center;
+    font-family: Arial, sans-serif;
+    height: 100vh;
+  }
+  .marquee span {
+    display: inline-block;
+    animation: marqueeAnimation 10s linear infinite;
+  }
+
+  @keyframes marqueeAnimation {
+    0% {
+      transform: translateX(100%);
+    }
+    100% {
+      transform: translateX(-100%);
+    }
+  }
+    
