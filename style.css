@@ -1,19 +1,27 @@
-
-         /* Basic styling for the form container */
+body {
+  margin: 0;
+  padding: 0;
+  background: url('../uba.jpg') no-repeat center center/cover; 
+  font-family: Arial, sans-serif;
+  height: 100vh;
+}
+/* Basic styling for the form container */
   .form-container {
-    width: 300px;
+    text-align: center;
+    width: 400px;
     margin: 0 auto;
-    padding: 20px;
+    padding: 30px;
     border: 1px solid #ccc;
-    border-radius: 5px;
+    border-radius: 8px;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-    background-color: #f9f9f9;
+    background-color: #ae0c0c;
   }
 
   /* Styling for the input field */
   .form-input {
-    width: 100%;
+    width: 95%;
     padding: 10px;
+    font-size: xx-large;
     margin-bottom: 10px;
     border: 1px solid #ccc;
     border-radius: 3px;
@@ -21,12 +29,14 @@
 
   /* Styling for the button */
   .form-button {
+    font-size: x-large;
     background-color: #007bff;
     color: #fff;
     border: none;
     border-radius: 3px;
     padding: 10px 20px;
     cursor: pointer;
+
   }
 
   /* Hover effect for the button */
@@ -38,16 +48,10 @@
   .marquee {
     overflow: hidden;
     white-space: nowrap;
+    margin-bottom: 20px;
+    color:#fff;
   }
-  body {
-    margin: 0;
-    padding: 0;
-    background: url('uba.jpg') no-repeat center center/cover; /* Replace with your image URL */
-    background-size: cover;
-    background-position: center;
-    font-family: Arial, sans-serif;
-    height: 100vh;
-  }
+  
   .marquee span {
     display: inline-block;
     animation: marqueeAnimation 10s linear infinite;
@@ -61,4 +65,16 @@
       transform: translateX(-100%);
     }
   }
+  .image-container {
+    border: 1px solid #ccc;
+    padding: 10px;
+    width: 95%;
+    text-align: center;
+    margin: auto;
+}
+
+.image-container img {
+    max-width: 100%;
+    height: auto;
+}
     
