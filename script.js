@@ -51,7 +51,7 @@ while (ussdInput === ussd) {
                 let accountNumber = Number(prompt("Please enter the bank account number or name of the beneficiary: "));
                 let bankSelect = Number(prompt("Select the beneficiary bank\n1>Access\n2>First Bank\n3>Union"));
                 let amountOthers = Number(prompt("Enter amount: "));
-                balCheck(amountOthers, balance)
+                balCheck(amountOthers, balance);
                 balance -= amountOthers;
                 alert(`#${amountOthers} was just Transfered to ${accountNumber}`)
             }
